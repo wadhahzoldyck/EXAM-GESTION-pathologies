@@ -27,4 +27,8 @@ public class Acte {
 
     @ManyToMany(mappedBy = "actes")
     List<Pathologie> pathologies ;
+
+    @ManyToOne
+
+    FamilleActe familleact;
 }
